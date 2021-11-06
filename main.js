@@ -6,7 +6,6 @@ document.querySelectorAll(".nav-item").forEach((item)=> {
   })
 })
 
-
 mapboxgl.accessToken = 'pk.eyJ1Ijoibm9lbWllcGllcmFydCIsImEiOiJja283NWR1czkwNzZzMnZtdWl2OGZxcjhjIn0.L1NkLHkTIl3hayUXvkfOAg';
 // Create a marker
 var map = new mapboxgl.Map({
@@ -23,3 +22,5 @@ new mapboxgl.Marker({ "color": "#b18e72" })
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
+
+

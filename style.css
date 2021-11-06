@@ -39,8 +39,14 @@ body {
   border: none;
 }
 
+@media (min-width: 992px) {
+  .navbar-lewagon {
+    justify-content: center;
+  }
+}
+
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: center
   background: white;
   position: fixed;
   left: 0px;
@@ -83,7 +89,7 @@ body {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
-  min-height: 400px;
+  min-height: 500px;
   height: 70vh;
   display: flex;
   align-items: center;
