@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  /*font-family: 'Prata', serif !important;*/
+  color: #4B4944!important;
+  text-align: justify !important;
+  /*padding-top: 70px !important;*/
+}
+
+#content {
+  /*margin-top: 70px !important;*/
+}
+
+.container-fluid {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 6vw;
+}
+
+.navbar {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    border-bottom: 1px solid #E0DDD6;
+    padding: 12px 0;
+  }
+
+  .navbar-nav{
+    padding: 34px;
+  }
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  color: #4B4944!important;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 400;
+
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #B18E72;
+  color: #B18E72 !important;
+}
+
+#logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#hero-container{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  border: 1px solid #B18E72 ;
+  padding: 3vw;
+}
+
+h1, h2, h3{
+  font-family: 'Prata', serif !important;
+  margin-bottom: 24px !important;
+  letter-spacing: 3px;
+}
+
+h4{
+  margin-bottom: 8px !important;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  letter-spacing: 3px !important;
+}
+.event-participation {
+  margin-right: 8px;
+}
+
+.event-date {
+  color: #B18E72;
+}
+
+#participation-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bg-camel {
+  background-color: #B18E72;
+  color: white;
+}
+
+.bg-khaki {
+  background-color: #C1AB97 !important;
+  color: white !important;
+}
+
+.bg-timber {
+  background-color: #e0ddd7;
+}
+
+.bg-middlegray {
+  background-color: #F5F5F4;
+}
+
+.event-card{
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.event-icon{
+  width: 50px;
+  height: 50px;
+  margin-right: 24px;
+}
+
+.transport-card {
+  margin-bottom: 24px;
+}
+
+.transport-card-title {
+  display: flex;
+  align-items: center;
+}
+
+.transport-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 24px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #B18E72;
+  text-decoration: italic ;
+  color: black;
+  background-color: inherit !important;
+}
+
+textarea {
+  border: 1px solid #B18E72 !important
+}
+
+#icon-quotes {
+  width: 30px;
+  height: 30px
+}
+
+.btn {
+  border-radius: 0;
+  text-decoration: uppercase !important;
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
