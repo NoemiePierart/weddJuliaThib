@@ -7,6 +7,7 @@
 
     <title>Mariage de Julia et Thib</title>
 
+    <!--Bootstrap : -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
@@ -32,7 +33,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon sticky-top">
+    <div class="navbar navbar-expand-lg navbar-light navbar-lewagon">
       <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" id="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,7 +65,7 @@
 
       <div class="section">
         <div class="container-fluid">
-          <div id="hero-container">
+          <div id="hero-container" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('./images/hero1.jpeg') ">
             <div id="hero-text">
               <h1 class="text-center">Mariage de Julia et Thibault</h1>
               <h2 class="text-center">15 juillet 2022</h2>
@@ -76,14 +77,14 @@
         <div class="container-fluid">
           <div class="d-flex">
             <img src="./images/quotes.png" alt="" id="icon-quotes">
-            <p class="text-center">Nous nous réjouissons de vous retrouver bientôt et de vous accueillir blablablabla.<br><em>Julia et Thibault</em></p>
+            <p class="text-center">Nous nous réjouissons de vous retrouver bientôt et de vous accueillir [blablablabla...]<br><em>Julia et Thibault</em></p>
           </div>
         </div>
       </div>
 
-      <div class="section bg-middlegray" id="programme">
+      <div class="section bg-middlegray" >
         <div class="container-fluid">
-          <h3>Programme</h3>
+          <h3 id="programme">Programme</h3>
 
           <div class="event-card">
             <img src="./images/eglise.png" alt="eglise" class="event-icon">
@@ -130,9 +131,9 @@
 
       </div>
 
-      <div class="section" id="transport">
+      <div class="section" >
         <div class="container-fluid">
-          <h3>Transports</h3>
+          <h3 id="transport">Transports</h3>
           <div class="row">
             <div class="col-md-6">
 
@@ -171,9 +172,9 @@
         </div>
       </div>
 
-      <div class="section bg-middlegray" id="hebergement">
+      <div class="section bg-middlegray">
         <div class="container-fluid">
-          <h3>Hébergement</h3>
+          <h3 id="hebergement">Hébergement</h3>
           <p>Hotel 1 - 6 rue des pommes (2 km)</p>
           <p>Hotel 2 - 6 rue des pommes (4 km)</p>
           <p>Hotel 3 - 6 rue des pommes (7 km)</p>
@@ -181,26 +182,25 @@
         </div>
       </div>
 
-      <div class="section" id="liste">
+      <div class="section">
         <div class="container-fluid">
-          <h3>Liste de mariage</h3>
+          <h3 id="liste">Liste de mariage</h3>
           <p>Blablabla cadeaux blablabla - Cliquer ici</p>
         </div>
       </div>
 
-      <div class="section bg-middlegray" id="covid">
+      <div class="section bg-middlegray" >
         <div class="container-fluid">
-          <h3>Infos Covid</h3>
-          <p>Nous sommes contraints de vous demander de bien garder sur vous votre pass sanitaire (certificat de vaccination / résultat négatif de test PCR ou antigénique de moins de 48 heures) pour que l'on puisse les vérifier.</p>
-          <p>Du gel hydroalcoolique sera à votre disposition à l'entrée de l'Eglise et sur le lieu du mariage.</p>
+          <h3 id="covid">Infos Covid</h3>
+          <p>Nous sommes contraints de vous demander de bien garder sur vous votre pass sanitaire (certificat de vaccination / résultat négatif de test PCR ou antigénique de moins de 48 heures).</p>
         </div>
       </div>
 
-      <div class="section bg-timber " id="contact">
+      <div class="section bg-timber " >
         <div class="container-fluid">
-          <h3>Contact</h3>
-          <p>Blababla</p>
-          <form name="participation" netlify>
+          <h3 id="contact">Contact</h3>
+          <p>Pour toute question ou pour nous confirmer votre présence...blababla blablabla</p>
+          <form name="contact" netlify>
 
             <div class="row">
               <div class="col">
@@ -210,7 +210,7 @@
                 <input class="form-control" type="text" placeholder="Nom" name="nom">
               </div>
             </div>
-
+            <br>
             <input class="form-control" type="text" placeholder="Email" name="email">
 <br>
             <textarea class="form-control" rows="5" placeholder="Message" name="message"></textarea>
