@@ -7,6 +7,7 @@ body {
   /*font-family: 'Prata', serif !important;*/
   color: #4B4944!important;
   text-align: justify !important;
+  line-height: 2em;
   /*padding-top: 70px !important;*/
 }
 
@@ -17,7 +18,7 @@ body {
 .container-fluid {
   max-width: 800px;
   margin: 0 auto;
-  padding: 32px 3vw;
+  padding: 32px 6vw;
 }
 
 .navbar {
@@ -79,6 +80,12 @@ body {
   color: #B18E72 !important;
 }
 
+.max-w-500 {
+  max-width:  500px;
+  margin:  0 auto;
+}
+
+
 #logo {
   width: 35px;
   height: 35px;
@@ -103,6 +110,7 @@ h1, h2, h3{
   font-family: 'Prata', serif !important;
   margin-bottom: 24px !important;
   letter-spacing: 3px;
+
 }
 
 h1, h2 {
@@ -113,7 +121,8 @@ h4{
   margin-bottom: 8px !important;
   font-size: 14px !important;
   text-transform: uppercase;
-  letter-spacing: 3px !important;
+  letter-spacing: 2px !important;
+  font-weight:  700;
 }
 
 a {
@@ -127,12 +136,13 @@ a:hover {
 }
 
 .btn-flat {
-  margin:  8px auto;
+  margin:  8px 0;
   color: white;
   padding: 8px 24px;
   background: #B18E72;
   transition: background 0.3s ease;
-  max-width:  250px;
+  max-width:  170px;
+  text-align:  center;
 }
 
 .btn-flat:hover {
@@ -146,6 +156,7 @@ a:hover {
 
 .event-date {
   color: #B18E72;
+  text-align:  center;
 }
 
 #participation-container {
@@ -210,8 +221,8 @@ textarea {
 }
 
 #icon-quotes {
-  width: 30px;
-  height: 30px
+  width: 100px;
+  height: 100px
 }
 
 .btn {
