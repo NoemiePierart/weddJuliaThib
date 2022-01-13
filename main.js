@@ -11,8 +11,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoibm9lbWllcGllcmFydCIsImEiOiJja283NWR1czkwNzZzM
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/noemiepierart/ckvlg3os2230h14pidakkf82g',
-center: [2.48333, 46.366669],
-zoom: 4
+center: [4.836329, 45.905188],
+zoom: 8
 });
 
 // Add a Marker on the place

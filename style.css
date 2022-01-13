@@ -15,9 +15,9 @@ body {
 }
 
 .container-fluid {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 32px 6vw;
+  padding: 32px 3vw;
 }
 
 .navbar {
@@ -115,6 +115,31 @@ h4{
   text-transform: uppercase;
   letter-spacing: 3px !important;
 }
+
+a {
+  text-decoration:  none !important;
+  color:  inherit !important;
+}
+
+a:hover {
+  font-weight:  700;
+  cursor:  pointer;
+}
+
+.btn-flat {
+  margin:  8px auto;
+  color: white;
+  padding: 8px 24px;
+  background: #B18E72;
+  transition: background 0.3s ease;
+  max-width:  250px;
+}
+
+.btn-flat:hover {
+  background: gray;
+  color: white;
+}
+
 .event-participation {
   margin-right: 8px;
 }
