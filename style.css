@@ -137,7 +137,7 @@ a:hover {
 
 .btn-flat {
   margin:  8px 0;
-  color: white;
+  color: white !important;
   padding: 8px 24px;
   background: #B18E72;
   transition: background 0.3s ease;
