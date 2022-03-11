@@ -116,6 +116,10 @@ h1, h2 {
   color: white;
 }
 
+h2 {
+  font-size:  1.4em !important;
+}
+
 h4{
   margin-bottom: 8px !important;
   font-size: 14px !important;
